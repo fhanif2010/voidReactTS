@@ -18,6 +18,24 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.fp-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+}
+
+.fp-container .msg-error {
+  color: red;
+  font-size: 12px;
+}
+
+.fp-container .label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
